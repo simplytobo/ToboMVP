@@ -1,0 +1,132 @@
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.btn{
+	background-color: #605DF2;
+}
+select {
+  display: flex;
+  padding: 0.5em;
+  border: 1px solid silver;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  
+  
+  position: absolute;
+}
+option{
+  padding: 0.2em;
+}
+/* Taxi screen styling below */
+#taxi-screen{
+  display: none;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#close-button{
+  position: absolute;
+  right: 1em;
+  top: 1em; 
+  color: red;
+}
+#routeData{
+  
+  padding: 1em;
+  padding-top: 3em;  
+  width: 100%;
+  background-color: gainsboro;
+}
+
+h6{
+  margin-bottom: 0rem;
+}
+
+#options-header{
+  
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  background-color: gainsboro;
+  margin: 0;
+
+
+}
+
+
+#taxi-options{
+  overflow: auto;
+  
+  width: 100%;
+  background-color: white;
+  padding-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#taxi-options-sub{
+  margin-right: 2em;
+}
+#taxiCompIcon{
+  height: 3em;
+  width: 3em;
+}
+/* Launch screen styling below */
+#launch-screen{
+	display: flex;
+    flex-direction: column;
+	height: 100%;
+    width: 100%;
+}
+.launch-card-layout{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  
+  bottom: 0;
+
+	
+}
+#launch-card{
+  margin: 1em;
+  padding: 1.5em;
+  background: white;
+  border-radius: 25px;
+  
+}
+#AutocompleteDatalist{
+  position: absolute;
+  flex-direction: column;
+  z-index: 10;
+  background: #605DF2;
+  width: auto;
+  color: white;
+  display: none;
+  
+  
+  
+}
+.map {	
+  height: 100%;
+  width: 100%;	
+}
+
+
+.fas{
+	color: #605DF2;
+}
+
+#menu-button{
+  position: absolute;
+  left: 1em;
+  top: 1em;
+}
+
+
+#menu-icon{
+  color:white;
+}
